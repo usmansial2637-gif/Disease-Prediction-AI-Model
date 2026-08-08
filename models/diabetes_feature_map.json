@@ -1,0 +1,19 @@
+{
+  "all_features": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "selected_features": [
+    "Pregnancies",
+    "Glucose",
+    "Insulin",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ]
+}
