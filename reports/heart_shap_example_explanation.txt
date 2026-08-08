@@ -1,0 +1,8 @@
+Prediction: No Disease
+Confidence: 42%
+Reasons:
+  + sex: +22.9%
+  - cp: -18.0%
+  - age: -17.1%
+  - thalach: -16.6%
+  + trestbps: +14.6%

@@ -1,0 +1,14 @@
+feature,f_score,p_value,selected
+sex,16.072,8e-05,True
+thalach,10.543,0.00129,True
+age,10.53,0.0013,True
+cp,5.595,0.01861,True
+chol,5.393,0.02085,True
+trestbps,3.011,0.08369,True
+exang,2.441,0.11918,False
+oldpeak,1.918,0.16704,False
+thal,0.403,0.52615,False
+ca,0.206,0.65,False
+restecg,0.081,0.77641,False
+fbs,0.012,0.91132,False
+slope,0.004,0.95107,False

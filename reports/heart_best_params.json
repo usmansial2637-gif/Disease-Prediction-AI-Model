@@ -1,0 +1,35 @@
+{
+  "Logistic Regression": {
+    "solver": "lbfgs",
+    "penalty": "l2",
+    "C": 1
+  },
+  "SVM (RBF Kernel)": {
+    "gamma": "auto",
+    "C": 1
+  },
+  "Random Forest": {
+    "n_estimators": 200,
+    "min_samples_split": 5,
+    "min_samples_leaf": 4,
+    "max_depth": 10
+  },
+  "XGBoost": {
+    "subsample": 0.7,
+    "n_estimators": 250,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.7
+  },
+  "LightGBM": {
+    "subsample": 0.7,
+    "num_leaves": 31,
+    "n_estimators": 150,
+    "learning_rate": 0.05
+  },
+  "CatBoost": {
+    "learning_rate": 0.03,
+    "iterations": 150,
+    "depth": 4
+  }
+}

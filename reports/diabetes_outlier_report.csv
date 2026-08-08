@@ -1,0 +1,9 @@
+feature,lower_bound,upper_bound,n_outliers,pct_outliers
+Pregnancies,-9.0,23.0,0,0.0
+Glucose,-15.5,276.5,0,0.0
+BloodPressure,2.0,162.0,0,0.0
+SkinThickness,-33.5,90.5,0,0.0
+Insulin,-139.375,437.625,0,0.0
+BMI,-5.637,77.462,0,0.0
+DiabetesPedigreeFunction,-1.188,3.722,0,0.0
+Age,-11.5,112.5,0,0.0

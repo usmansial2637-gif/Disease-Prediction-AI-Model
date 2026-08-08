@@ -1,0 +1,9 @@
+feature,f_score,p_value,selected
+Glucose,47.096,0.0,True
+Pregnancies,9.277,0.00248,True
+Age,5.311,0.02171,True
+Insulin,0.606,0.4366,True
+DiabetesPedigreeFunction,0.283,0.59517,True
+SkinThickness,0.065,0.79953,False
+BloodPressure,0.028,0.86685,False
+BMI,0.007,0.93551,False

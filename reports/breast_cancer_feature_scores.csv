@@ -1,0 +1,31 @@
+feature,f_score,p_value,selected
+worst perimeter,819.206,0.0,True
+worst area,796.489,0.0,True
+worst radius,790.131,0.0,True
+mean concave points,748.106,0.0,True
+worst concave points,733.725,0.0,True
+mean perimeter,616.827,0.0,True
+mean area,597.226,0.0,True
+mean radius,568.306,0.0,True
+area error,533.047,0.0,True
+mean concavity,484.277,0.0,True
+worst concavity,370.643,0.0,True
+perimeter error,316.206,0.0,True
+radius error,312.62,0.0,True
+mean compactness,285.271,0.0,True
+worst compactness,263.556,0.0,True
+worst texture,126.849,0.0,False
+concave points error,116.416,0.0,False
+worst smoothness,103.966,0.0,False
+worst symmetry,103.136,0.0,False
+mean texture,95.976,0.0,False
+mean smoothness,86.056,0.0,False
+concavity error,81.212,0.0,False
+mean symmetry,60.363,0.0,False
+worst fractal dimension,55.977,0.0,False
+compactness error,52.784,0.0,False
+fractal dimension error,10.558,0.00124,False
+smoothness error,3.424,0.0649,False
+symmetry error,2.126,0.14555,False
+mean fractal dimension,0.014,0.90677,False
+texture error,0.008,0.92862,False

@@ -1,0 +1,8 @@
+Prediction: Diabetes
+Confidence: 52%
+Reasons:
+  + Glucose: +68.3%
+  - DiabetesPedigreeFunction: -13.5%
+  - Insulin: -7.5%
+  - Age: -6.2%
+  - Pregnancies: -4.5%

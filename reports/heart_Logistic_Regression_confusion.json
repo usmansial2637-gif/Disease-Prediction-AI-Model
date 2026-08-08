@@ -1,0 +1,16 @@
+{
+  "labels": [
+    "No Disease",
+    "Disease"
+  ],
+  "matrix": [
+    [
+      22,
+      18
+    ],
+    [
+      12,
+      28
+    ]
+  ]
+}

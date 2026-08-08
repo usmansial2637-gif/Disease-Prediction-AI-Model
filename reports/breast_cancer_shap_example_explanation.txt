@@ -1,0 +1,8 @@
+Prediction: No Disease
+Confidence: 2%
+Reasons:
+  - area error: -24.3%
+  - worst area: -12.4%
+  - worst radius: -10.7%
+  - mean concave points: -9.8%
+  + radius error: +8.4%

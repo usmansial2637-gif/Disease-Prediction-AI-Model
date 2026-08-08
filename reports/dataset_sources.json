@@ -1,0 +1,5 @@
+{
+  "breast_cancer": "Breast Cancer (Wisconsin)",
+  "heart": "Heart Disease (SYNTHETIC placeholder - replace data/heart.csv with the real UCI file)",
+  "diabetes": "Diabetes (SYNTHETIC placeholder - replace data/diabetes.csv with the real Pima Indians file)"
+}
