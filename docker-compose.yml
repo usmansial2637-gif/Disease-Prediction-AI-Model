@@ -1,0 +1,42 @@
+# Disease Prediction Project — multi-service Docker Compose setup.
+#
+# First-time setup (train the models — required before app/api will work):
+#   docker compose run --rm train
+#
+# Then start the web app and API:
+#   docker compose up
+#
+# Streamlit app  -> http://localhost:8501
+# REST API       -> http://localhost:8000  (docs at http://localhost:8000/docs)
+
+services:
+  train:
+    build: .
+    command: python main.py --dataset all
+    volumes:
+      - ./outputs:/app/outputs
+      - ./database:/app/database
+      - ./data:/app/data
+    profiles: ["tools"]   # only runs when explicitly invoked, not on `docker compose up`
+
+  app:
+    build: .
+    command: streamlit run app.py --server.address=0.0.0.0 --server.port=8501
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./outputs:/app/outputs
+      - ./database:/app/database
+      - ./data:/app/data
+    restart: unless-stopped
+
+  api:
+    build: .
+    command: uvicorn api:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./outputs:/app/outputs
+      - ./database:/app/database
+      - ./data:/app/data
+    restart: unless-stopped

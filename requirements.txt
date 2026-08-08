@@ -1,0 +1,19 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+xgboost
+lightgbm
+catboost
+shap
+streamlit
+plotly
+reportlab
+fastapi
+uvicorn[standard]
+tabulate
+
+# --- dev / CI only (testing) ---
+pytest
+httpx
